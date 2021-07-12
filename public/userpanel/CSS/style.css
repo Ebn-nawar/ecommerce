@@ -1,0 +1,229 @@
+.navbar{
+    flex-wrap: nowrap;
+}
+@media screen and (max-width: 320px) {
+    .user-nav .navbar-text{
+        font-size: 10px;
+    }
+}
+/* search-bar */
+.search{
+    width: 45vw;
+    background-color: #fff;
+    color: #000;
+    height: 60px;
+    border-radius: 40px;
+    margin: 50px auto;
+    padding: 10px;
+    border: #bebebe solid 2px;
+}
+
+.search-btn{
+    color: #808080;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-btn:hover{
+    color: #525252;
+}
+.search-txt{
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px 20px;
+    color: #000;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 310px;
+    border: none;
+    caret-color: #808080;
+    /* border-right: solid 2px #808080; */
+}
+/* nav in small screen */
+@media screen and (max-width: 992px) {
+    .search{
+        width: 75vw;
+    }
+    .search-txt{
+        width: 65%;
+    }
+}
+/* main-bar */
+.main-bar .navbar-brand{
+    padding: 20px 0px;
+}
+/* carousel */
+.carousel{
+    margin-bottom: 50px;
+}
+.d-block{
+    height: 600px;
+}
+/* collection */
+.hot-collection .collection{
+    display: flex;
+}
+.hot-collection .part-a {
+    width: 50vw;
+    /* background-color: black; */
+}
+.hot-collection .part-a img{
+    margin-top: 20px;
+}
+.hot-collection .part-a .coll-articale p:first-of-type{
+    color: #ff9baf;
+    font-size: 25px;
+    letter-spacing: 6px;
+}
+.hot-collection .part-a .coll-articale p:last-of-type{
+    color: #727272;
+    padding-top: 20px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* @media screen and (max-width: 768px){
+    .hot-collection .collection{
+        display: block;
+    }
+    .hot-collection .part-a {
+        display: flex;
+    }
+    .hot-collection .part-a .coll-articale{
+        margin: 0px auto;
+    }
+} */
+/* ----------------------------------------------------------------------------------------------------- */
+.hot-collection .part-b {
+    width: 50vw;
+    /* background-color: red; */
+}
+.hot-collection .part-b img{
+    padding: 20px;
+}
+
+/* feature itemes , trending */
+.card-flute .fas{
+    font-size: 35px;
+}
+.feature-items{
+    margin-bottom: 80px;
+}
+.feature-items .top-feat{
+    color: #808080;
+    margin: 50px auto;
+}
+.feature-items .top-feat .top-feat-link{
+    text-align: center;
+}
+.feature-items .top-feat .top-feat-link a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+}
+.feature-items .top-feat .top-feat-link a:hover{
+    color: #000;
+    text-decoration: #000000;
+}
+
+.feature-items .feat-cards button{
+    width: 25vw;
+    margin: 20px auto;
+}
+.feature-items .feat-cards .cards .card-body h2{
+    padding: 8px 12px;
+}
+.feature-items .feat-cards .cards{
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+.feature-items .feat-cards .buttom{
+    width: 25vw;
+    margin: 20px auto;
+}
+.feature-items .feat-cards .buttom button{
+    padding: 15px;
+}
+.feature-items .feat-cards .card{
+    margin: 10px auto;
+}
+
+.feature-items .feat-cards .card-flute{
+    display: flex;
+    justify-content: space-around;
+    color: #808080;
+}
+.feature-items .feat-cards .card-flute .icon{
+    width: 35px;
+    height: 35px;
+    padding: 2px 7px;
+    color: #999999;
+    border: solid #999999 1px;
+    border-radius: 25px;
+}
+.feature-items .feat-cards .card-flute .icon-1{
+    width: 35px;
+    height: 35px;
+    padding: 3px 8px;
+    color: #999999;
+    border: solid #999999 1px;
+    border-radius: 25px;
+}
+.feature-items .feat-cards .card-flute .icon-1:hover{
+    color: red;
+    border: none;
+}
+.feature-items .feat-cards .card-flute .icon:hover{
+    color: #000;
+    border: none;
+}
+.btn-last{
+    width: 60%;
+}
+/* branding */
+.branding{
+    display: flex;
+}
+/* footer */
+footer{
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+}
+footer .up-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .up-footer .footer-slid{
+    margin: 10px auto;
+}
+footer .up-footer .footer-slid a{
+    text-align: center;
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+}
+footer .up-footer .last{
+    color: #b6b6b6;
+}
+footer .up-footer .last button{
+    width: 100%;
+}
+footer .down-footer{
+    display: flex;
+    background-color: #000;
+    padding: 20px;
+    color: #b6b6b6;
+}
+
+
+
+/* |------------- under carousel responsive --------------|     * CSS *    */
+
+
+/* |----------------- fontawesome -----------------|     * CSS *    */
+
